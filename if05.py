@@ -10,22 +10,22 @@ def main(n):
     x = n % 10
     if(x > s):
         s = x
-    n /= 10
+    n //= 10
 
     x = n % 10
     if(x > s):
         s = x
-    n /= 10
+    n //= 10
 
     x = n % 10
     if(x > s):
         s = x
-    n /= 10
+    n //= 10
 
     x = n % 10
     if(x > s):
         s = x
-    n /= 10
+    n //= 10
 
     x = n % 10
     if(x > s):
