@@ -6,4 +6,28 @@ def main(n):
     Returns:
         int: return answer.
     """
-    return
+    s = 0
+    x = n % 10
+    if(x > s):
+        s = x
+    n /= 10
+
+    x = n % 10
+    if(x > s):
+        s = x
+    n /= 10
+
+    x = n % 10
+    if(x > s):
+        s = x
+    n /= 10
+
+    x = n % 10
+    if(x > s):
+        s = x
+    n /= 10
+
+    x = n % 10
+    if(x > s):
+        s = x
+    return s
